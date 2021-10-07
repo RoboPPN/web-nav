@@ -1,4 +1,4 @@
-favicon: /images/鸦羽.png
+favicon: /images/webstack_icon_producthunt.png
 
 
 logo:
@@ -19,6 +19,10 @@ menu:
     icon: far fa-star
     config: MyFriends
 
+  - name: 学习
+    icon: far fa-star
+    config: study
+
   - name: 社区
     icon: far fa-star
     config: Community
@@ -35,9 +39,9 @@ menu:
         icon: fas fa-tools
         config: Emoji
 
-      - name: 我的博客
+      - name: 资源下载
         icon: fas fa-blog
-        config: myBlog
+        config: Resource downloader
 
 MyFriends:
   - name: 甘伟泽
@@ -81,6 +85,31 @@ MyFriends:
     description: 大聪明
 
 
+study:
+  - name: ROS理论与实践课件
+    url: http://www.autolabor.com.cn/book/ROSTutorials/
+    # img: /images/logos/github.png
+    description:
+
+  - name: CSS
+    url: https://developer.mozilla.org/en-US/docs/Learn/CSS/
+    # img: /images/logos/github.png
+    description: 学习ＣＳＳ
+
+  - name: HTML
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/
+    # img: /images/logos/github.png
+    description: 学习ＨＴＭＬ
+  
+  - name: Create
+    url: https://create-react-app.dev/
+    # img: /images/logos/github.png
+    description: 　
+
+  - name: Docusaurus中文网
+    url: https://www.docusaurus.cn/
+    # img: /images/logos/github.png
+    description: 一款轻便美观的博客框架
 
 
 Community: 
@@ -104,10 +133,7 @@ Community:
     # img: /images/logos/github.png
     description: 
 
-  - name: Docusaurus中文网
-    url: https://www.docusaurus.cn/
-    # img: /images/logos/github.png
-    description: 
+  
 
   - name: 创客智造
     url: https://www.ncnynl.com/archives/201708/1880.html
@@ -115,14 +141,11 @@ Community:
     description: 
   
   - name: ROS's Wiki
-    url: http://wiki.ros.org/cn/ROS/Tutorials/WhereNext#A.2BZvSP204Aa2U-
+    url: http://wiki.ros.org/navigation?distro=noetic
     # img: /images/logos/github.png
     description: 
 
-  - name: ROS理论与实践课件
-    url: http://www.autolabor.com.cn/book/ROSTutorials/
-    # img: /images/logos/github.png
-    description: 
+  
   
 
 Gangster:
@@ -131,10 +154,20 @@ Gangster:
     # img: /images/logos/github.png
     description: 2D寻路算法领域
 
+  - name: 峰华前端工程师
+    url: https://zxuqian.cn/
+    # img: /images/logos/github.png
+    description: 前端大佬
+
   - name: 大叔的小站
     url: https://imuncle.github.io/
     # img: /images/logos/github.png
     description: ＲＭｅｒ
+
+  - name: 前站导航
+    url: https://www.hifast.cn/
+    # img: /images/logos/github.png
+    description: 这个网站什么都有
 
   
 
@@ -151,30 +184,19 @@ Emoji:
     # img: /images/logos/github.png
     description: Ｅｍｏｊｉ表情大全
 
-myBlog:
-  - name: Github
-    url: https://github.com/RoboPPN/
+
+Resource downloader:
+  - name: 音乐下载器
+    url: http://www.xieqian.vip/music/
     # img: /images/logos/myBlog.png
-    description: 我的Github
+    description: 一款在线音乐下载器
+  - name: bilibili视频下载
+    url: https://xbeibeix.com/api/bilibili/
+    # img: /images/logos/myBlog.png
+    description:
+  
 
-about:
-  url: /about/
-  icon: far fa-heart
-  name: 关于本站
-
-aboutPage:
-  website:
-    head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
-  webmaster:
-    head: 关于站长
-    name: HCLonely
-    url: https://blog.hclonely.com/
-    img: /images/logos/myblog.png
-    description: 懒人一个
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
-
-since: 2020
+since: 2021
 
 busuanzi:
   enable: true
