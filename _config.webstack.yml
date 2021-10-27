@@ -172,8 +172,11 @@ Gangster:
   - name: 白夜行的狼
     url: https://haoqchen.site/
     # img: /images/logos/github.png
-    description: 
-
+    description: ROS Navigation源码完全详解 
+  - name: 不知所云
+    url: https://lkevin98.gitee.io/blog/
+    # img: /images/logos/github.png
+    description: Ubuntu+ROS+QT
   - name: 前站导航
     url: https://www.hifast.cn/
     # img: /images/logos/github.png
