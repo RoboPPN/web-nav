@@ -40,8 +40,14 @@ menu:
         config: Emoji
 
       - name: 资源下载
-        icon: fas fa-blog
-        config: Resource downloader
+        icon: fas fa-tools
+        config: Resource Downloader
+      
+      - name: 资源转换
+        icon: fas fa-tools
+        config: Resource Transform
+
+
 
 MyFriends:
   - name: 甘伟泽
@@ -207,7 +213,13 @@ Resource downloader:
     url: https://xbeibeix.com/api/bilibili/
     # img: /images/logos/myBlog.png
     description:
-  
+
+Resource Transform:
+  - name: 资源转换器
+    url: https://onlineconvertfree.com/zh/convert/
+    # img: /images/logos/myBlog.png
+    description: 免费转换各种转换何文件、图片、视频、音频和照片转换工具！
+
 
 since: 2021
 
