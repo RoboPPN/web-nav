@@ -40,12 +40,12 @@ menu:
         config: Emoji
 
       - name: 资源下载
-        icon: fas fa-tools
-        config: Resource Downloader
-      
+        icon: fas fa-star
+        config: Downloader
+
       - name: 资源转换
         icon: fas fa-tools
-        config: Resource Transform
+        config: Transform
 
 
 
@@ -204,17 +204,18 @@ Emoji:
     description: Ｅｍｏｊｉ表情大全
 
 
-Resource downloader:
+Downloader:
   - name: 音乐下载器
     url: http://www.xieqian.vip/music/
     # img: /images/logos/myBlog.png
     description: 一款在线音乐下载器
+
   - name: bilibili视频下载
     url: https://xbeibeix.com/api/bilibili/
     # img: /images/logos/myBlog.png
     description:
 
-Resource Transform:
+Transform:
   - name: 资源转换器
     url: https://onlineconvertfree.com/zh/convert/
     # img: /images/logos/myBlog.png
