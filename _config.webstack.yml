@@ -250,6 +250,11 @@ Transform:
     # img: /images/logos/myBlog.png
     description: 免费转换各种转换何文件、图片、视频、音频和照片转换工具！
 
+  - name: 视频转换器
+    url: https://ezgif.com/
+    # img: /images/logos/myBlog.png
+    description: GIF制作、视频转GIF、剪切视频、对视频做各种更改等
+
 
 since: 2021
 
