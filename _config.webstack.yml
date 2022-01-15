@@ -35,7 +35,10 @@ menu:
     icon: far fa-star
     config: Gangster
 
-
+  - name: 前端
+    icon: far fa-star
+    config: Front
+  
   - name: 其他工具
     icon: fas fa-tools
     submenu:
@@ -218,7 +221,33 @@ Gangster:
     description: 这个网站什么都有
 
   
+Front:
 
+  - name: Create a New Pen
+    url: https://codepen.io/pen/
+    # img: /images/logos/github.png
+    description: HTML&CSS&JS在线编辑网站
+
+  - name: WIDE特效
+    url: http://www.wware.org/texiao.html
+    # img: /images/logos/github.png
+    description: 包括色彩搭配、wide全景图、SVG制作、CSS动态背景、wide VR等
+
+  - name: iconfont阿里巴巴矢量图标库
+    url: https://www.iconfont.cn/
+    # img: /images/logos/github.png
+    description: 该网站拥有各种图标，每个图标还有SVG、PNG、SVG代码多种格式
+
+  - name: font-awesome图标Link链接
+    url: https://www.bootcdn.cn/font-awesome/
+    # img: /images/logos/github.png
+    description: 搭配后面的Font Awesome图标库一起使用
+
+  - name: Font Awesome图标库
+    url: https://fontawesome.com/v5.15/icons?d=gallery&p=2
+    # img: /images/logos/github.png
+    description: 该网站提供了图标的class代码形式
+  
 
 
 Emoji:
@@ -231,6 +260,11 @@ Emoji:
     url: http://emojixd.com/
     # img: /images/logos/github.png
     description: Ｅｍｏｊｉ表情大全
+
+  - name: Vercel
+    url: https://vercel.com/
+    # img: /images/logos/github.png
+    description: 用与网站自动托管
 
 
 Downloader:
