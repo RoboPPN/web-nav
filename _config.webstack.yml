@@ -42,6 +42,10 @@ menu:
   - name: 其他工具
     icon: fas fa-tools
     submenu:
+      - name: 论文查找
+        icon: fas fa-tools
+        config: paper_lookup
+
       - name: Emoji大全
         icon: fas fa-tools
         config: Emoji
@@ -53,6 +57,12 @@ menu:
       - name: 资源转换
         icon: fas fa-tools
         config: Transform
+
+      - name: 资源传输
+        icon: fas fa-tools
+        config: Resource_transfer
+
+      
 
 
 
@@ -249,6 +259,11 @@ Front:
     description: 该网站提供了图标的class代码形式
   
 
+paper_lookup:
+  - name: SEMANTIC SCHOLAR
+    url: https://www.semanticscholar.org/
+    # img: /images/logos/github.png
+    description: Semantic Scholar使用开创性的 AI 和工程来理解科学文献的语义,以帮助学者发现相关研究。我们的 API 现在包括论文搜索、更好的文档和更高的稳定性。
 
 Emoji:
   - name: Emoji大全①
@@ -261,10 +276,6 @@ Emoji:
     # img: /images/logos/github.png
     description: Ｅｍｏｊｉ表情大全
 
-  - name: Vercel
-    url: https://vercel.com/
-    # img: /images/logos/github.png
-    description: 用与网站自动托管
 
 
 Downloader:
@@ -288,6 +299,17 @@ Transform:
     url: https://ezgif.com/
     # img: /images/logos/myBlog.png
     description: GIF制作、视频转GIF、剪切视频、对视频做各种更改等
+
+Resource_transfer:
+  - name: AirPortal(空投快传)
+    url: https://airportal.cn/
+    # img: /images/logos/myBlog.png
+    description: AirPortal是一个可以跨设备传输文件的网站。只要您的设备联网,您就可以通过它在任意系统、任意设备间传输文件。无需登录或注册,只需打开空投快传、直接上传文件
+
+  - name: Vercel
+    url: https://vercel.com/
+    # img: /images/logos/github.png
+    description: 用与网站自动托管
 
 
 since: 2021
