@@ -4,16 +4,16 @@
 
 # Site
 title: Hexo
-subtitle: ''
-description: ''
+subtitle: '橘子海的导航网站'
+description: '橘子海的导航网站'
 keywords:
-author: John Doe
-language: en
+author: 橘子海
+language: cn
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://nav.roboppn.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
